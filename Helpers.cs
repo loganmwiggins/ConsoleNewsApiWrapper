@@ -8,6 +8,7 @@ namespace NewsHeadlines
 {
     public class Helpers
     {
+        // Method to get user input with a prompt message
         public static string? GetUserInput(string prompt)
         {
             System.Console.Write(prompt + " ");
@@ -17,6 +18,7 @@ namespace NewsHeadlines
             return string.IsNullOrEmpty(inputLine) ? null : inputLine;
         }
 
+        // Method to simulate a search timeout with visual feedback
         public static void SearchTimeout()
         {
             System.Console.WriteLine();
@@ -31,16 +33,17 @@ namespace NewsHeadlines
             System.Console.Clear();
         }
 
+        // Method to handle end-of-program choices: quit or restart
         public static async Task EndOfProgram()
         {
-            string? qInput = GetUserInput("➡️ Press Q to quit or R to restart:");
+            string? qInput = GetUserInput("➡️  Press Q to quit or R to restart:");
 
             while (true)
             {
                 if (string.IsNullOrEmpty(qInput) || (qInput.ToLower() != "r" && qInput.ToLower() != "q"))
                 {
                     SetConsoleColor("red");
-                    qInput = GetUserInput("❌ Please make a valid selection:");
+                    qInput = GetUserInput("❌  Please make a valid selection:");
                     ResetConsoleColor();
                 }
                 else break;
@@ -57,11 +60,13 @@ namespace NewsHeadlines
             }
         }
 
+        // Method to exit the program
         public static void Quit()
         {
             System.Environment.Exit(0); // Exiting program
         }
 
+        // Method to print ASCII art based on the provided input
         public static void PrintAscii(string input)
         {
             switch (input)
@@ -86,6 +91,7 @@ namespace NewsHeadlines
             System.Threading.Thread.Sleep(1000);
         }
 
+        // Method to set the console text color based on input string
         public static void SetConsoleColor(string color)
         {
             switch (color)
@@ -119,6 +125,7 @@ namespace NewsHeadlines
             }
         }
 
+        // Method to reset the console text color to the default (white)
         public static void ResetConsoleColor()
         {
             System.Console.ForegroundColor = ConsoleColor.White;
