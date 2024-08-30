@@ -11,6 +11,12 @@ namespace NewsHeadlines
 {
     public class ApiHelpers
     {
+        //Nice organization
+        // **Awesome job! A small suggestion would be to store your API key in an environment variable
+        //private static readonly string apiKey = Environment.GetEnvironmentVariable("NEWS_API_KEY");
+        // **You could add directions for how the user could set that variable in the README
+        
+        
         // SEARCHED ARTICLES
         public static async Task PrintSearchedArticlesAsync(string query)
         {
