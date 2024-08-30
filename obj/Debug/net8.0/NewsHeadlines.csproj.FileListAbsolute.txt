@@ -18,3 +18,4 @@ C:\Users\jmflpat\OneDrive - JM Family Enterprises\HackbrightAcademy\CodeJams\3_A
 C:\Users\jmflpat\OneDrive - JM Family Enterprises\HackbrightAcademy\CodeJams\3_ApiWrapper\NewsHeadlines\obj\Debug\net8.0\ref\NewsHeadlines.dll
 C:\Users\jmflpat\OneDrive - JM Family Enterprises\HackbrightAcademy\CodeJams\3_ApiWrapper\NewsHeadlines\bin\Debug\net8.0\Figgle.dll
 C:\Users\jmflpat\OneDrive - JM Family Enterprises\HackbrightAcademy\CodeJams\3_ApiWrapper\NewsHeadlines\bin\Debug\net8.0\Colorful.Console.dll
+C:\Users\jmflpat\OneDrive - JM Family Enterprises\HackbrightAcademy\CodeJams\3_ApiWrapper\NewsHeadlines\obj\Debug\net8.0\NewsHeadlines.sourcelink.json

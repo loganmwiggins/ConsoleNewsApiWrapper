@@ -5,6 +5,14 @@
     {
       "AbsoluteMoniker": "D:0:0:{C3C7DA4D-23F4-404A-BF92-9D5E81001DA2}|NewsHeadlines.csproj|c:\\users\\jmflpat\\onedrive - jm family enterprises\\hackbrightacademy\\codejams\\3_apiwrapper\\newsheadlines\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C3C7DA4D-23F4-404A-BF92-9D5E81001DA2}|NewsHeadlines.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C3C7DA4D-23F4-404A-BF92-9D5E81001DA2}|NewsHeadlines.csproj|c:\\users\\jmflpat\\onedrive - jm family enterprises\\hackbrightacademy\\codejams\\3_apiwrapper\\newsheadlines\\helpers.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C3C7DA4D-23F4-404A-BF92-9D5E81001DA2}|NewsHeadlines.csproj|solutionrelative:helpers.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C3C7DA4D-23F4-404A-BF92-9D5E81001DA2}|NewsHeadlines.csproj|c:\\users\\jmflpat\\onedrive - jm family enterprises\\hackbrightacademy\\codejams\\3_apiwrapper\\newsheadlines\\apihelpers.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C3C7DA4D-23F4-404A-BF92-9D5E81001DA2}|NewsHeadlines.csproj|solutionrelative:apihelpers.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -14,8 +22,34 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 2,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ApiHelpers.cs",
+              "DocumentMoniker": "C:\\Users\\jmflpat\\OneDrive - JM Family Enterprises\\HackbrightAcademy\\CodeJams\\3_ApiWrapper\\NewsHeadlines\\ApiHelpers.cs",
+              "RelativeDocumentMoniker": "ApiHelpers.cs",
+              "ToolTip": "C:\\Users\\jmflpat\\OneDrive - JM Family Enterprises\\HackbrightAcademy\\CodeJams\\3_ApiWrapper\\NewsHeadlines\\ApiHelpers.cs",
+              "RelativeToolTip": "ApiHelpers.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-30T17:13:52.505Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Helpers.cs",
+              "DocumentMoniker": "C:\\Users\\jmflpat\\OneDrive - JM Family Enterprises\\HackbrightAcademy\\CodeJams\\3_ApiWrapper\\NewsHeadlines\\Helpers.cs",
+              "RelativeDocumentMoniker": "Helpers.cs",
+              "ToolTip": "C:\\Users\\jmflpat\\OneDrive - JM Family Enterprises\\HackbrightAcademy\\CodeJams\\3_ApiWrapper\\NewsHeadlines\\Helpers.cs",
+              "RelativeToolTip": "Helpers.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAIAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-30T17:11:45.033Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
@@ -24,7 +58,7 @@
               "RelativeDocumentMoniker": "Program.cs",
               "ToolTip": "C:\\Users\\jmflpat\\OneDrive - JM Family Enterprises\\HackbrightAcademy\\CodeJams\\3_ApiWrapper\\NewsHeadlines\\Program.cs",
               "RelativeToolTip": "Program.cs",
-              "ViewState": "AgIAAJIAAAAAAAAAAAA3wGcAAABWAAAAAAAAAA==",
+              "ViewState": "AgIAAEkAAAAAAAAAAAAQwHsAAAA6AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-08-29T15:01:23.462Z",
               "EditorCaption": ""
