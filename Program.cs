@@ -45,7 +45,16 @@
                         else break;
                     }
 
-                    await ApiHelpers.PrintSearchedArticlesAsync(userQuery);
+                    // when searching for a topic, users can choose to sort articles by different methods
+                        string? sortby = Helpers.GetUserInput("\nSort articles:\n[1] Sort the articles by date published\n[2] Sort articles by popularity \n[3] Sort articles by relevancy\nBy default, or with other inputs, articles are sorted by popularity.\n\n");
+
+                        try
+                        {
+                            await ApiHelpers.PrintSearchedArticlesAsync(userQuery, int.Parse(sortby));
+                        } catch (Exception e)
+                        {
+                            Console.WriteLine(e.Message);
+                        }
                     break;
                 }
                 case "3":

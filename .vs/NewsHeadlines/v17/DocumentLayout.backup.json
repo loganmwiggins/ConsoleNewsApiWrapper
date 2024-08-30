@@ -1,10 +1,18 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\jmflpat\\OneDrive - JM Family Enterprises\\HackbrightAcademy\\CodeJams\\3_ApiWrapper\\NewsHeadlines\\",
+  "WorkspaceRootPath": "C:\\Users\\jmfsmof\\OneDrive - JM Family Enterprises\\Documents\\ITS academy projects\\Code Jams\\Code Jam 3\\ConsoleNewsApiWrapper\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{C3C7DA4D-23F4-404A-BF92-9D5E81001DA2}|NewsHeadlines.csproj|c:\\users\\jmflpat\\onedrive - jm family enterprises\\hackbrightacademy\\codejams\\3_apiwrapper\\newsheadlines\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{C3C7DA4D-23F4-404A-BF92-9D5E81001DA2}|NewsHeadlines.csproj|c:\\users\\jmfsmof\\onedrive - jm family enterprises\\documents\\its academy projects\\code jams\\code jam 3\\consolenewsapiwrapper\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C3C7DA4D-23F4-404A-BF92-9D5E81001DA2}|NewsHeadlines.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C3C7DA4D-23F4-404A-BF92-9D5E81001DA2}|NewsHeadlines.csproj|c:\\users\\jmfsmof\\onedrive - jm family enterprises\\documents\\its academy projects\\code jams\\code jam 3\\consolenewsapiwrapper\\apihelpers.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C3C7DA4D-23F4-404A-BF92-9D5E81001DA2}|NewsHeadlines.csproj|solutionrelative:apihelpers.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C3C7DA4D-23F4-404A-BF92-9D5E81001DA2}|NewsHeadlines.csproj|c:\\users\\jmfsmof\\onedrive - jm family enterprises\\documents\\its academy projects\\code jams\\code jam 3\\consolenewsapiwrapper\\helpers.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C3C7DA4D-23F4-404A-BF92-9D5E81001DA2}|NewsHeadlines.csproj|solutionrelative:helpers.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -14,17 +22,47 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 3,
           "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:131:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ApiHelpers.cs",
+              "DocumentMoniker": "C:\\Users\\jmfsmof\\OneDrive - JM Family Enterprises\\Documents\\ITS academy projects\\Code Jams\\Code Jam 3\\ConsoleNewsApiWrapper\\ApiHelpers.cs",
+              "RelativeDocumentMoniker": "ApiHelpers.cs",
+              "ToolTip": "C:\\Users\\jmfsmof\\OneDrive - JM Family Enterprises\\Documents\\ITS academy projects\\Code Jams\\Code Jam 3\\ConsoleNewsApiWrapper\\ApiHelpers.cs",
+              "RelativeToolTip": "ApiHelpers.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAAwLsAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-30T17:13:52.505Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Helpers.cs",
+              "DocumentMoniker": "C:\\Users\\jmfsmof\\OneDrive - JM Family Enterprises\\Documents\\ITS academy projects\\Code Jams\\Code Jam 3\\ConsoleNewsApiWrapper\\Helpers.cs",
+              "RelativeDocumentMoniker": "Helpers.cs",
+              "ToolTip": "C:\\Users\\jmfsmof\\OneDrive - JM Family Enterprises\\Documents\\ITS academy projects\\Code Jams\\Code Jam 3\\ConsoleNewsApiWrapper\\Helpers.cs",
+              "RelativeToolTip": "Helpers.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAQwH8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-30T17:11:45.033Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\jmflpat\\OneDrive - JM Family Enterprises\\HackbrightAcademy\\CodeJams\\3_ApiWrapper\\NewsHeadlines\\Program.cs",
+              "DocumentMoniker": "C:\\Users\\jmfsmof\\OneDrive - JM Family Enterprises\\Documents\\ITS academy projects\\Code Jams\\Code Jam 3\\ConsoleNewsApiWrapper\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
-              "ToolTip": "C:\\Users\\jmflpat\\OneDrive - JM Family Enterprises\\HackbrightAcademy\\CodeJams\\3_ApiWrapper\\NewsHeadlines\\Program.cs",
+              "ToolTip": "C:\\Users\\jmfsmof\\OneDrive - JM Family Enterprises\\Documents\\ITS academy projects\\Code Jams\\Code Jam 3\\ConsoleNewsApiWrapper\\Program.cs",
               "RelativeToolTip": "Program.cs",
-              "ViewState": "AgIAAIwAAAAAAAAAAAAAwJUAAAAxAAAAAAAAAA==",
+              "ViewState": "AgIAAB8AAAAAAAAAAAAQwDAAAABDAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-08-29T15:01:23.462Z",
               "EditorCaption": ""

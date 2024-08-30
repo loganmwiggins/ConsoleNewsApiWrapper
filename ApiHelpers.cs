@@ -12,15 +12,36 @@ namespace NewsHeadlines
     public class ApiHelpers
     {
         // SEARCHED ARTICLES
-        public static async Task PrintSearchedArticlesAsync(string query)
+        public static async Task PrintSearchedArticlesAsync(string query, int sortnum)
         {
             // Init with your API key
             var newsApiClient = new NewsApiClient("667cf68eaa6e48b0b06f3bf0a9590003");
             // var newsApiClient = new NewsApiClient("fbbc8a18e6934ad49468e2a21663801c");
+
+            // sort based on the specified sortBy method
+            SortBys sortby = new SortBys();
+
+            if (sortnum == 1)
+            {
+                sortby = SortBys.PublishedAt;
+            }
+            else if (sortnum == 2)
+            {
+                sortby = SortBys.Popularity;
+            }
+            else if (sortnum == 3)
+            {
+                sortby = SortBys.Relevancy;
+            }
+            else
+            {
+                sortby = SortBys.Popularity;
+            }
+
             var articlesResponse = newsApiClient.GetEverything(new EverythingRequest
             {
                 Q = query,
-                SortBy = SortBys.Popularity,
+                SortBy = sortby,
                 Language = Languages.EN,
                 //  From = new DateTime(2018, 1, 25)
             });

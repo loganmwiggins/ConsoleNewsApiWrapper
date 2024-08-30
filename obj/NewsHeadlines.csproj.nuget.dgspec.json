@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\jmflpat\\OneDrive - JM Family Enterprises\\HackbrightAcademy\\CodeJams\\3_ApiWrapper\\NewsHeadlines\\NewsHeadlines.csproj": {}
+    "C:\\Users\\jmfsmof\\OneDrive - JM Family Enterprises\\Documents\\ITS academy projects\\Code Jams\\Code Jam 3\\ConsoleNewsApiWrapper\\NewsHeadlines.csproj": {}
   },
   "projects": {
-    "C:\\Users\\jmflpat\\OneDrive - JM Family Enterprises\\HackbrightAcademy\\CodeJams\\3_ApiWrapper\\NewsHeadlines\\NewsHeadlines.csproj": {
+    "C:\\Users\\jmfsmof\\OneDrive - JM Family Enterprises\\Documents\\ITS academy projects\\Code Jams\\Code Jam 3\\ConsoleNewsApiWrapper\\NewsHeadlines.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\jmflpat\\OneDrive - JM Family Enterprises\\HackbrightAcademy\\CodeJams\\3_ApiWrapper\\NewsHeadlines\\NewsHeadlines.csproj",
+        "projectUniqueName": "C:\\Users\\jmfsmof\\OneDrive - JM Family Enterprises\\Documents\\ITS academy projects\\Code Jams\\Code Jam 3\\ConsoleNewsApiWrapper\\NewsHeadlines.csproj",
         "projectName": "NewsHeadlines",
-        "projectPath": "C:\\Users\\jmflpat\\OneDrive - JM Family Enterprises\\HackbrightAcademy\\CodeJams\\3_ApiWrapper\\NewsHeadlines\\NewsHeadlines.csproj",
-        "packagesPath": "C:\\Users\\jmflpat\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\jmflpat\\OneDrive - JM Family Enterprises\\HackbrightAcademy\\CodeJams\\3_ApiWrapper\\NewsHeadlines\\obj\\",
+        "projectPath": "C:\\Users\\jmfsmof\\OneDrive - JM Family Enterprises\\Documents\\ITS academy projects\\Code Jams\\Code Jam 3\\ConsoleNewsApiWrapper\\NewsHeadlines.csproj",
+        "packagesPath": "C:\\Users\\jmfsmof\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\jmfsmof\\OneDrive - JM Family Enterprises\\Documents\\ITS academy projects\\Code Jams\\Code Jam 3\\ConsoleNewsApiWrapper\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\jmflpat\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\jmfsmof\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [

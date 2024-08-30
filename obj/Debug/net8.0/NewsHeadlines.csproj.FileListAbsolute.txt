@@ -19,3 +19,24 @@ C:\Users\jmflpat\OneDrive - JM Family Enterprises\HackbrightAcademy\CodeJams\3_A
 C:\Users\jmflpat\OneDrive - JM Family Enterprises\HackbrightAcademy\CodeJams\3_ApiWrapper\NewsHeadlines\bin\Debug\net8.0\Figgle.dll
 C:\Users\jmflpat\OneDrive - JM Family Enterprises\HackbrightAcademy\CodeJams\3_ApiWrapper\NewsHeadlines\bin\Debug\net8.0\Colorful.Console.dll
 C:\Users\jmflpat\OneDrive - JM Family Enterprises\HackbrightAcademy\CodeJams\3_ApiWrapper\NewsHeadlines\obj\Debug\net8.0\NewsHeadlines.sourcelink.json
+C:\Users\jmfsmof\OneDrive - JM Family Enterprises\Documents\ITS academy projects\Code Jams\Code Jam 3\ConsoleNewsApiWrapper\bin\Debug\net8.0\NewsHeadlines.exe
+C:\Users\jmfsmof\OneDrive - JM Family Enterprises\Documents\ITS academy projects\Code Jams\Code Jam 3\ConsoleNewsApiWrapper\bin\Debug\net8.0\NewsHeadlines.deps.json
+C:\Users\jmfsmof\OneDrive - JM Family Enterprises\Documents\ITS academy projects\Code Jams\Code Jam 3\ConsoleNewsApiWrapper\bin\Debug\net8.0\NewsHeadlines.runtimeconfig.json
+C:\Users\jmfsmof\OneDrive - JM Family Enterprises\Documents\ITS academy projects\Code Jams\Code Jam 3\ConsoleNewsApiWrapper\bin\Debug\net8.0\NewsHeadlines.dll
+C:\Users\jmfsmof\OneDrive - JM Family Enterprises\Documents\ITS academy projects\Code Jams\Code Jam 3\ConsoleNewsApiWrapper\bin\Debug\net8.0\NewsHeadlines.pdb
+C:\Users\jmfsmof\OneDrive - JM Family Enterprises\Documents\ITS academy projects\Code Jams\Code Jam 3\ConsoleNewsApiWrapper\bin\Debug\net8.0\Colorful.Console.dll
+C:\Users\jmfsmof\OneDrive - JM Family Enterprises\Documents\ITS academy projects\Code Jams\Code Jam 3\ConsoleNewsApiWrapper\bin\Debug\net8.0\Figgle.dll
+C:\Users\jmfsmof\OneDrive - JM Family Enterprises\Documents\ITS academy projects\Code Jams\Code Jam 3\ConsoleNewsApiWrapper\bin\Debug\net8.0\NewsAPI.dll
+C:\Users\jmfsmof\OneDrive - JM Family Enterprises\Documents\ITS academy projects\Code Jams\Code Jam 3\ConsoleNewsApiWrapper\bin\Debug\net8.0\Newtonsoft.Json.dll
+C:\Users\jmfsmof\OneDrive - JM Family Enterprises\Documents\ITS academy projects\Code Jams\Code Jam 3\ConsoleNewsApiWrapper\obj\Debug\net8.0\NewsHeadlines.csproj.AssemblyReference.cache
+C:\Users\jmfsmof\OneDrive - JM Family Enterprises\Documents\ITS academy projects\Code Jams\Code Jam 3\ConsoleNewsApiWrapper\obj\Debug\net8.0\NewsHeadlines.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\jmfsmof\OneDrive - JM Family Enterprises\Documents\ITS academy projects\Code Jams\Code Jam 3\ConsoleNewsApiWrapper\obj\Debug\net8.0\NewsHeadlines.AssemblyInfoInputs.cache
+C:\Users\jmfsmof\OneDrive - JM Family Enterprises\Documents\ITS academy projects\Code Jams\Code Jam 3\ConsoleNewsApiWrapper\obj\Debug\net8.0\NewsHeadlines.AssemblyInfo.cs
+C:\Users\jmfsmof\OneDrive - JM Family Enterprises\Documents\ITS academy projects\Code Jams\Code Jam 3\ConsoleNewsApiWrapper\obj\Debug\net8.0\NewsHeadlines.csproj.CoreCompileInputs.cache
+C:\Users\jmfsmof\OneDrive - JM Family Enterprises\Documents\ITS academy projects\Code Jams\Code Jam 3\ConsoleNewsApiWrapper\obj\Debug\net8.0\NewsHeadlines.sourcelink.json
+C:\Users\jmfsmof\OneDrive - JM Family Enterprises\Documents\ITS academy projects\Code Jams\Code Jam 3\ConsoleNewsApiWrapper\obj\Debug\net8.0\NewsHead.04FCEE42.Up2Date
+C:\Users\jmfsmof\OneDrive - JM Family Enterprises\Documents\ITS academy projects\Code Jams\Code Jam 3\ConsoleNewsApiWrapper\obj\Debug\net8.0\NewsHeadlines.dll
+C:\Users\jmfsmof\OneDrive - JM Family Enterprises\Documents\ITS academy projects\Code Jams\Code Jam 3\ConsoleNewsApiWrapper\obj\Debug\net8.0\refint\NewsHeadlines.dll
+C:\Users\jmfsmof\OneDrive - JM Family Enterprises\Documents\ITS academy projects\Code Jams\Code Jam 3\ConsoleNewsApiWrapper\obj\Debug\net8.0\NewsHeadlines.pdb
+C:\Users\jmfsmof\OneDrive - JM Family Enterprises\Documents\ITS academy projects\Code Jams\Code Jam 3\ConsoleNewsApiWrapper\obj\Debug\net8.0\NewsHeadlines.genruntimeconfig.cache
+C:\Users\jmfsmof\OneDrive - JM Family Enterprises\Documents\ITS academy projects\Code Jams\Code Jam 3\ConsoleNewsApiWrapper\obj\Debug\net8.0\ref\NewsHeadlines.dll
