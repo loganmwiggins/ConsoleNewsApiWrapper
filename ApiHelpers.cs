@@ -11,7 +11,7 @@ namespace NewsHeadlines
 {
     public class ApiHelpers
     {
-        // SEARCHED ARTICLES
+        // Method to fetch and print articles based on a search query
         public static async Task PrintSearchedArticlesAsync(string query)
         {
             // Init with your API key
@@ -25,6 +25,7 @@ namespace NewsHeadlines
                 //  From = new DateTime(2018, 1, 25)
             });
 
+            // Check if the API request was successful
             if (articlesResponse.Status == Statuses.Ok)
             {
                 Helpers.SearchTimeout();
@@ -112,7 +113,7 @@ namespace NewsHeadlines
         }
 
 
-        // POPULAR ARTICLES
+        // Method to fetch and print popular articles
         public static void PrintPopularArticles()
         {
             // Init with your API key
