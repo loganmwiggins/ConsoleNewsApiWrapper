@@ -4,6 +4,7 @@
     {
         public static async Task Main()
         {
+            
             Helpers.ResetConsoleColor();
             Helpers.PrintAscii("main");
 
@@ -16,6 +17,7 @@
                 if (string.IsNullOrEmpty(choice) || (choice != "1" && choice != "2" && choice!= "3")) 
                 {
                     Helpers.SetConsoleColor("red");
+                    //Nice input validation
                     choice = Helpers.GetUserInput("❌ Please make a valid selection:");
                     Helpers.ResetConsoleColor();
                 }
