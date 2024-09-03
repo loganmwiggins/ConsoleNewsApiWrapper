@@ -63,12 +63,16 @@ namespace NewsHeadlines
         // Method to exit the program
         public static void Quit()
         {
+            SetConsoleColor("magenta");
+            System.Console.WriteLine("\nThanks for using Console.News, goodbye!\n");
+            ResetConsoleColor();
             System.Environment.Exit(0); // Exiting program
         }
 
         // Method to print ASCII art based on the provided input
         public static void PrintAscii(string input)
         {
+            System.Console.WriteLine();
             switch (input)
             {
                 // Print "Welcome to Console.News"
