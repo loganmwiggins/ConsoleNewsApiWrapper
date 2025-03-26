@@ -17,14 +17,26 @@ jobs:
         uses: actions/checkout@v2
 
       - name: Upgrade .csproj files
+        shell: pwsh
         run: |
-          Get-ChildItem -Path . -Filter *.csproj -Recurse | ForEach-Object {
-            (Get-Content $_.FullName) -replace '<TargetFramework>net8.0</TargetFramework>', '<TargetFramework>net9.0</TargetFramework>' | Set-Content $_.FullName
-            $packages = Select-String -Path $_.FullName -Pattern '<PackageReference Include="([^"]+)" Version="([^"]+)"' | ForEach-Object {
+          $targetFramework = "net9.0"
+ 
+          Get-ChildItem -Path . -Recurse -Filter *.csproj | ForEach-Object {
+            $csproj = $_.FullName
+ 
+            # Replace the TargetFramework
+            (Get-Content $csproj) -replace '<TargetFramework>.*?</TargetFramework>', "<TargetFramework>$targetFramework</TargetFramework>" | Set-Content $csproj
+ 
+            # Extract existing packages with version
+            $packages = Select-String -Path $csproj -Pattern '<PackageReference Include="([^"]+)" Version="([^"]+)"' | ForEach-Object {
               $matches = $_.Matches
-              "dotnet add package $($matches.Groups[1].Value) --version $($matches.Groups[2].Value)"
+              "dotnet add `"$csproj`" package $($matches.Groups[1].Value) --version $($matches.Groups[2].Value)"
             }
-            Invoke-Expression $packages -ErrorAction Stop
+ 
+            # Run each command individually
+            foreach ($cmd in $packages) {
+              Invoke-Expression $cmd
+            }
           }
 
       - name: Build the project
