@@ -1,0 +1,39 @@
+name: Upgrade
+
+on:
+  push:
+    branches:
+      - Upgrade_Assistant
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  upgrade:
+    runs-on: windows-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v2
+
+      - name: Upgrade .csproj files
+        run: |
+          Get-ChildItem -Path . -Filter *.csproj -Recurse | ForEach-Object {
+            (Get-Content $_.FullName) -replace '<TargetFramework>net8.0</TargetFramework>', '<TargetFramework>net9.0</TargetFramework>' | Set-Content $_.FullName
+            $packages = Select-String -Path $_.FullName -Pattern '<PackageReference Include="([^"]+)" Version="([^"]+)"' | ForEach-Object {
+              $matches = $_.Matches
+              "dotnet add package $($matches.Groups[1].Value) --version $($matches.Groups[2].Value)"
+            }
+            Invoke-Expression $packages -ErrorAction Stop
+          }
+
+      - name: Build the project
+        run: dotnet build
+
+      - name: Commit and push changes
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add .
+          git commit -m "Auto-commit: upgraded project to net9.0" || echo "No changes to commit"
+          git push origin Upgrade_Assistant
